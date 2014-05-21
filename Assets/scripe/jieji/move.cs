@@ -4,6 +4,7 @@
 public class move : MonoBehaviour {
 	public Vector2 velocity = new Vector2(0, -4);
 	public int range = 4;
+	public GameObject gameObject;
 
 	// Use this for initialization
 	void Start () {
@@ -15,7 +16,7 @@ public class move : MonoBehaviour {
 	
 	}
 	void  Update(){
-
+		Destroy (gameObject, 4);
 	}
 	// Update is called once per frame
 
