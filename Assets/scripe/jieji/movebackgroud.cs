@@ -13,7 +13,7 @@ public class movebackgroud : MonoBehaviour {
 	{
 		Instantiate (rocks);
 		i++;
-		if(i==10){
+		if(i==50){
 			CancelInvoke();
 		}
 	}
